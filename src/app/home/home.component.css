@@ -1,0 +1,259 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: purple;
+}
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+.heading-link {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-link h3 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.heading-link p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #777;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: purple;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid purple;
+  background: #f0fdfa;
+  color: blueviolet;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: blueviolet;
+  color: #fff;
+}
+
+.home {
+  padding: 0;
+}
+
+.home .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60rem;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.home .slide .content {
+  width: 50rem;
+}
+
+.home .slide .content h3 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: blue;
+}
+
+.home .slide .content:hover h3{
+  color:blueviolet;
+}
+
+.branches .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.branches .box-container .box {
+  padding: 20px;
+  text-align: center;
+  background: #f0fdfa;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.branches .box-container .box:hover {
+  background: blueviolet;
+}
+
+.branches .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.branches .box-container .box img {
+  height: 10rem;
+  margin-bottom: .7rem;
+}
+
+.branches .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.degrees .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+
+.degrees .box-container .box {
+  padding: 20px;
+  text-align: center;
+  background: #f0fdfa;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.degrees .box-container .box:hover {
+  background: blueviolet;
+}
+
+.degrees .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.degrees .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.degrees .box-container .box p {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding:  .5rem 0;
+}
+
+.degrees .box-container .box:hover p{
+  color: #fff;
+
+} 
+.footer {
+  background: #f0fdfa;
+}
+
+.footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: purple;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+  color: purple;
+}
+
+.footer .box-container .box .share {
+  margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background-color: purple;
+  color: #fff;
+  margin-right: .3rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: blueviolet;
+}
+
+.footer .box-container .box .link {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: purple;
+  padding: .5rem 0;
+  display: block;
+}
+
+.footer .box-container .box .link:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid purple;
+  margin-bottom: 1rem;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  border-top: 0.1rem solid purple;
+}
